@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-Hekeln
+%define		pdir	XML
+%define		pnam	Filter-Hekeln
 Summary:	XML::Filter::Hekeln - a SAX stream editor
 Summary(pl):	XML::Filter::Hekeln - edytor strumieni SAX
 Name:		perl-XML-Filter-Hekeln
