@@ -32,8 +32,14 @@ for the next handler in the chain.  The name Hekeln sounds like the
 german word for crocheting, whats the best to describe, what Hekeln
 can do on markup language translation.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Perla XML::Filter::Hekeln to wymy¶lny edytor strumieni SAX.
+
+Hekeln jest filtrem SAX. Oznacza to, ¿e mo¿na u¿ywaæ obiektu Hekeln
+jako funkcji obs³ugi zdarzeñ oraz do tworzenia zdarzeñ SAX jako
+sterownik dla nastêpnej funkcji obs³ugi w ³añcuchu. Nazwa Hekeln brzmi
+jak niemieckie s³owo oznaczaj±ce szyde³kowanie, co najlepiej oznacza,
+co Hekeln mo¿e zrobiæ przy t³umaczeniu jêzyka znaczników.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -57,6 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%{perl_vendorlib}/%{pdir}/*/*.pm
+%{perl_vendorlib}/XML/*/*.pm
 %{_mandir}/man3/*
 %{_mandir}/man1/*
