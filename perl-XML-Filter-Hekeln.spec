@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	Filter-Hekeln
 Summary:	XML::Filter::Hekeln - a SAX stream editor
-#Summary(pl):	
+Summary(pl):	XML::Filter::Hekeln - edytor strumieni SAX
 Name:		perl-XML-Filter-Hekeln
 Version:	0.06
 Release:	1
@@ -24,13 +24,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XML::Filter::Hekeln is a sophisticated SAX stream editor.
+XML::Filter::Hekeln Perl module is a sophisticated SAX stream editor.
 
-Hekeln is a SAX filter.  This means that you can use a Hekeln object as
-a Handler to act on events, and to produce SAX events as a driver for
-the next handler in the chain.  The name Hekeln sounds like the german
-word for crocheting, whats the best to describe, what Hekeln can do on
-markup language translation.
+Hekeln is a SAX filter.  This means that you can use a Hekeln object
+as a Handler to act on events, and to produce SAX events as a driver
+for the next handler in the chain.  The name Hekeln sounds like the
+german word for crocheting, whats the best to describe, what Hekeln
+can do on markup language translation.
 
 # %description -l pl
 # TODO
