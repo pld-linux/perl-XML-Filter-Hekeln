@@ -26,9 +26,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XML::Filter::Hekeln Perl module is a sophisticated SAX stream editor.
 
-Hekeln is a SAX filter.  This means that you can use a Hekeln object
+Hekeln is a SAX filter. This means that you can use a Hekeln object
 as a Handler to act on events, and to produce SAX events as a driver
-for the next handler in the chain.  The name Hekeln sounds like the
+for the next handler in the chain. The name Hekeln sounds like the
 german word for crocheting, whats the best to describe, what Hekeln
 can do on markup language translation.
 
