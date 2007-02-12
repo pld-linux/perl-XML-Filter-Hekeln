@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Hekeln
 Summary:	XML::Filter::Hekeln - a SAX stream editor
-Summary(pl):	XML::Filter::Hekeln - edytor strumieni SAX
+Summary(pl.UTF-8):   XML::Filter::Hekeln - edytor strumieni SAX
 Name:		perl-XML-Filter-Hekeln
 Version:	0.06
 Release:	1
@@ -32,14 +32,14 @@ for the next handler in the chain. The name Hekeln sounds like the
 german word for crocheting, whats the best to describe, what Hekeln
 can do on markup language translation.
 
-%description -l pl
-Modu³ Perla XML::Filter::Hekeln to wymy¶lny edytor strumieni SAX.
+%description -l pl.UTF-8
+ModuÅ‚ Perla XML::Filter::Hekeln to wymyÅ›lny edytor strumieni SAX.
 
-Hekeln jest filtrem SAX. Oznacza to, ¿e mo¿na u¿ywaæ obiektu Hekeln
-jako funkcji obs³ugi zdarzeñ oraz do tworzenia zdarzeñ SAX jako
-sterownik dla nastêpnej funkcji obs³ugi w ³añcuchu. Nazwa Hekeln brzmi
-jak niemieckie s³owo oznaczaj±ce szyde³kowanie, co najlepiej oznacza,
-co Hekeln mo¿e zrobiæ przy t³umaczeniu jêzyka znaczników.
+Hekeln jest filtrem SAX. Oznacza to, Å¼e moÅ¼na uÅ¼ywaÄ‡ obiektu Hekeln
+jako funkcji obsÅ‚ugi zdarzeÅ„ oraz do tworzenia zdarzeÅ„ SAX jako
+sterownik dla nastÄ™pnej funkcji obsÅ‚ugi w Å‚aÅ„cuchu. Nazwa Hekeln brzmi
+jak niemieckie sÅ‚owo oznaczajÄ…ce szydeÅ‚kowanie, co najlepiej oznacza,
+co Hekeln moÅ¼e zrobiÄ‡ przy tÅ‚umaczeniu jÄ™zyka znacznikÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
