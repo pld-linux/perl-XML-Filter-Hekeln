@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-Hekeln
 Summary:	XML::Filter::Hekeln - a SAX stream editor
-Summary(pl.UTF-8):   XML::Filter::Hekeln - edytor strumieni SAX
+Summary(pl.UTF-8):	XML::Filter::Hekeln - edytor strumieni SAX
 Name:		perl-XML-Filter-Hekeln
 Version:	0.06
 Release:	1
