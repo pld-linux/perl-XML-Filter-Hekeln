@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Filter-Hekeln
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::Hekeln - a SAX stream editor
 Summary(pl.UTF-8):	XML::Filter::Hekeln - edytor strumieni SAX
 Name:		perl-XML-Filter-Hekeln
